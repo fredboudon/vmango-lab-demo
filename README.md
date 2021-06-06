@@ -1,8 +1,23 @@
-### Demo notebooks for vmango-lab
+## Demo notebooks for vmango-lab
 
-Run interactively on binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main)
+A demo repository for [vmango-lab](https://github.com/jvail/vmango-lab)
 
-View on nbviewer:
+### Setup a conda environment and run locally
+
+```bash
+conda env create -f environment.yml
+```
+
+```bash
+conda activate vmango-lab
+jupyter notebook
+```
+
+### Run interactively on binder
+
+ [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main)
+
+### View on nbviewer
 
 Modularity [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/1-modularity.ipynb)
 
