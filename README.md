@@ -2,11 +2,9 @@
 
 View on nbviewer, run inspect interactively on binder or run it locally after.
 
----
 
 ## Run interactively on binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main)
 
----
 
 ## View on nbviewer
 
@@ -34,7 +32,6 @@ A use case from measurements in the field, data preparation and simulation.
 
 ![Use Case](images/4-use_case_measure_and_simulate.png)
 
----
 
 ## Setup a conda environment and run locally
 
