@@ -1,4 +1,4 @@
-name: vmango-lab
+name: vmango-lab-demo
 channels:
   - fredboudon
   - conda-forge

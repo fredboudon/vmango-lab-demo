@@ -42,6 +42,6 @@ conda env create -f environment.yml
 ```
 
 ```bash
-conda activate vmango-lab
+conda activate vmango-lab-demo
 jupyter notebook
 ```
