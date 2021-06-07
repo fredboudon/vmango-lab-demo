@@ -28,7 +28,7 @@ Simulation of a mango orchard with multi-model parallelization
 
 ### A Use Case [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/4-use_case_measure_and_simulate.ipynb)
 
-A use case from measurements in the field, data preparation and simulation.
+A use case from measurements in the field, data preparation to simulation.
 
 ![Use Case](images/4-use_case_measure_and_simulate.png)
 
