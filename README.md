@@ -1,8 +1,44 @@
-## Demo notebooks for vmango-lab
+# Demo notebooks for [vmango-lab](https://github.com/jvail/vmango-lab)
 
-A demo repository for [vmango-lab](https://github.com/jvail/vmango-lab)
+View on nbviewer, run inspect interactively on binder or run it locally after.
 
-### Setup a conda environment and run locally
+---
+
+## Run interactively on binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main)
+
+---
+
+## View on nbviewer
+
+### Modularity [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/1-modularity.ipynb)
+
+Visualizing a model's processes and their dependencies.
+
+![Modularity](images/1-modularity.png)
+
+### Mango Cycles [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/2-mango_cycles.ipynb)
+
+A simulation and visualization of a mango tree through two vegetative cycles.
+
+![Mango Cycles](images/2-mango_cycles.png)
+
+### A Mango Orchard [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/3-orchard_parallelization.ipynb)
+
+Simulation of a mango orchard with multi-model parallelization
+
+![Orchard](images/3-orchard_parallelization.png)
+
+### A Use Case [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/4-use_case_measure_and_simulate.ipynb)
+
+A use case from measurements in the field, data preparation and simulation.
+
+![Use Case](images/4-use_case_measure_and_simulate.png)
+
+---
+
+## Setup a conda environment and run locally
+
+Requires a [minicoda](https://docs.conda.io/en/latest/miniconda.html) installation.
 
 ```bash
 conda env create -f environment.yml
@@ -12,25 +48,3 @@ conda env create -f environment.yml
 conda activate vmango-lab
 jupyter notebook
 ```
-
-### Run interactively on binder
-
- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main)
-
-### View on nbviewer
-
-Modularity [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/1-modularity.ipynb)
-
-![Modularity](images/1-modularity.png)
-
-Mango Cycles [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/2-mango_cycles.ipynb)
-
-![Mango Cycles](images/2-mango-cycles.png)
-
-Orchard [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/3-orchard_parallelization.ipynb)
-
-![Orchard](images/3-orchard.png)
-
-Use Case [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/4-use_case_measure_and_simulate.ipynb)
-
-![Use Case](images/4-measure-and-simulate.png)
