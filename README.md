@@ -1,9 +1,9 @@
 # Demo notebooks for [vmango-lab](https://github.com/jvail/vmango-lab)
 
-View on nbviewer, run inspect interactively on binder or run it locally after.
+View on nbviewer, run and inspect interactively on binder or run it locally after setting up the conda environment.
 
 
-## Run interactively on binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main)
+## Run on binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main)
 
 
 ## View on nbviewer
@@ -22,7 +22,7 @@ A simulation and visualization of a mango tree through two vegetative cycles.
 
 ### A Mango Orchard [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/3-orchard_parallelization.ipynb)
 
-Simulation of a mango orchard with multi-model parallelization
+Simulation of a mango orchard with multi-model parallelization.
 
 ![Orchard](images/3-orchard_parallelization.png)
 
