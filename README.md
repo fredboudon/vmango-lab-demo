@@ -38,6 +38,11 @@ A use case from measurements in the field, data preparation to simulation.
 Requires a [minicoda](https://docs.conda.io/en/latest/miniconda.html) installation.
 
 ```bash
+git clone https://github.com/jvail/vmango-lab-demo.git
+```
+
+```bash
+cd vmango-lab-demo
 conda env create -f environment.yml
 ```
 

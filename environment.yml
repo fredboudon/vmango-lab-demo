@@ -3,20 +3,22 @@ channels:
   - fredboudon
   - conda-forge
 dependencies:
-  - openalea.lpy=3.8.0
-  - openalea.plantgl=3.9.3
-  - xarray-simlab=0.5.0
-  - jupyterlab>=3.0.*
+  - alinea.caribu
+  - openalea.lpy=3.8.*
+  - openalea.plantgl=3.9.*
+  - xarray-simlab=0.5.*
+  - jupyterlab>=3.0.16
   - jupyterlab_widgets
   - ipython=7
   - toml
   - matplotlib
-  - numpy
+  - numpy=1.20.*
   - pandas
+  - sparse
   - scipy
   - pycairo
   - pip
   - pip:
     - pgljupyter==1.1.0
     - python-igraph==0.9.6
-    - git+https://github.com/jvail/vmango-lab.git
+    - git+https://github.com/jvail/vmango-lab.git@v1.0.0
