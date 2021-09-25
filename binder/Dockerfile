@@ -11,8 +11,8 @@ RUN apt-get update && apt-get install --no-upgrade --no-install-recommends -y li
     apt-get clean && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/* && \
-    mamba remove -n base jupyterlab && \
-    mamba env update -n base -f /home/${NB_USER}/binder/environment.yml
+    mamba env update -n base -f /home/${NB_USER}/binder/environment.yml && \
+    jupyter lab build && jupyter lab clean
 
 RUN chown -R ${NB_UID} /home/${NB_USER}
 USER ${NB_UID}
