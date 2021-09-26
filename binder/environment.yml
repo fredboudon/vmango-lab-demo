@@ -17,4 +17,4 @@ dependencies:
   - pip:
     - pgljupyter>=1.2.*
     - python-igraph>=0.9.*
-    - git+https://github.com/jvail/vmango-lab.git@v1.0.0
+    - git+https://github.com/jvail/vmango-lab.git@v1.0.1
