@@ -3,7 +3,7 @@
 View on nbviewer, run and inspect interactively on binder or run it locally after setting up the conda environment.
 
 
-## Run on binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main)
+## Run on binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main?urlpath=lab/tree/notebooks)
 
 
 ## View on nbviewer
