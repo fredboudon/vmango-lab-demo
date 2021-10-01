@@ -12,7 +12,6 @@ dependencies:
   - matplotlib
   - numpy=1.20.*
   - pandas
-  - sparse
   - scipy
   - pycairo
   - pip
