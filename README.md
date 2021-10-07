@@ -3,14 +3,14 @@
 View on nbviewer, run and inspect interactively on binder or run it locally after setting up the conda environment.
 
 
-## Run on binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main)
+## Run on binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jvail/vmango-lab-demo/main?urlpath=lab/tree/notebooks)
 
 
 ## View on nbviewer
 
 ### Modularity [@nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/1-modularity.ipynb)
 
-Visualizing a model's processes and their dependencies.
+Visualizing a model's processes and their dependencies and plug-in a custom process.
 
 ![Modularity](images/1-modularity.png)
 

@@ -1,12 +1,9 @@
-name: vmango-lab-demo
 channels:
   - fredboudon
   - conda-forge
 dependencies:
   - openalea.lpy>=3.8.*
   - xarray-simlab=0.5.*
-  - jupyterlab>=3.1.*
-  - jupyterlab_widgets
   - ipython=7
   - toml
   - matplotlib
