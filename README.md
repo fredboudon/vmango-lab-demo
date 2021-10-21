@@ -35,7 +35,7 @@ A use case from measurements in the field, data preparation to simulation.
 
 ## Setup a conda environment and run locally
 
-Requires a [minicoda](https://docs.conda.io/en/latest/miniconda.html) installation.
+Requires a [minicoda](https://docs.conda.io/en/latest/miniconda.html) installation and the conda executable needs to be available in PATH.
 
 ```bash
 git clone https://github.com/jvail/vmango-lab-demo.git
