@@ -17,12 +17,30 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: conda-incubator/setup-miniconda@v2
-      with:
-        channels: fredboudon,conda-forge
-        use-mamba: true
-        #environment-file: environment.yml
-        activate-environment: vmango-lab-demo
+
+
+    #- uses: conda-incubator/setup-miniconda@v2
+    #  with:
+    #    channels: fredboudon,conda-forge
+    #    use-mamba: true
+    #    environment-file: environment.yml
+    #    activate-environment: vmango-lab-demo
+
+    - name: Add conda to system path
+      run: |
+        # Add conda to system path
+        # $CONDA is an environment variable pointing to the root of the miniconda directory
+        echo $CONDA/bin >> $GITHUB_PATH        
+
+    - name: Setup conda environment
+      shell: bash -l {0}
+      run: |
+        sudo conda config --add channels conda-forge
+        sudo conda config --add channels fredboudon
+        sudo conda config --set always_yes yes
+        sudo conda config --set remote_read_timeout_secs 600
+        sudo conda config --set auto_update_conda False
+        sudo conda env create -f environement.yml
 
     - name: Setup conda
       shell: bash -l {0}
