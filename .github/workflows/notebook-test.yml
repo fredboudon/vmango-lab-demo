@@ -1,4 +1,4 @@
-name: Testing notebook using Conda
+name: Testing notebooks using Conda
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     strategy:
       #max-parallel: 5
       matrix:
-        os: [ "macos-latest", "ubuntu-latest", "windows-latest"]
+        os: [ "ubuntu-latest" ] #,"macos-latest",  "windows-latest"]
 
     steps:
     - uses: actions/checkout@v2
@@ -21,7 +21,7 @@ jobs:
       with:
         channels: fredboudon,conda-forge
         use-mamba: true
-        environment-file: environment.yml
+        #environment-file: environment.yml
         activate-environment: vmango-lab-demo
 
     - name: Setup conda
