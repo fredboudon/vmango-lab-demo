@@ -13,7 +13,7 @@ jobs:
     strategy:
       #max-parallel: 5
       matrix:
-        os: [ macos-latest, ubuntu-latest, windows-latest]
+        os: [ "macos-latest", "ubuntu-latest", "windows-latest"]
 
     steps:
     - uses: actions/checkout@v2
@@ -23,14 +23,12 @@ jobs:
         environment-file: environment.yml
         activate-environment: vmango-lab-demo
 
-
     - name: Setup conda
       run: |
         # Setup conda
         sudo conda activate vmango-lab-demo
         sudo conda install pytest
         pip install nbmake
-
 
     - name: Test notebooks 
       run: |
