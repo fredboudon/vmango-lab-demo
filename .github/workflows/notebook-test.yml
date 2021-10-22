@@ -41,12 +41,12 @@ jobs:
         sudo conda config --set remote_read_timeout_secs 600
         sudo conda config --set auto_update_conda False
         sudo conda env create -f environment.yml
+        sudo conda activate vmango-lab-demo
 
     - name: Setup conda
       shell: bash -l {0}
       run: |
         # Setup conda
-        sudo conda activate vmango-lab-demo
         sudo conda install pytest
         pip install nbmake
 
@@ -54,6 +54,5 @@ jobs:
       shell: bash -l {0}
       run: |
         cd notebooks
-        sudo conda activate vmango-lab-demo
         pytest --nbmake
 
