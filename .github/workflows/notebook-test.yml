@@ -40,7 +40,7 @@ jobs:
         sudo conda config --set always_yes yes
         sudo conda config --set remote_read_timeout_secs 600
         sudo conda config --set auto_update_conda False
-        sudo conda env create -f environement.yml
+        sudo conda env create -f environment.yml
 
     - name: Setup conda
       shell: bash -l {0}
