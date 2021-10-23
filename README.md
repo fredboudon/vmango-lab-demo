@@ -50,3 +50,4 @@ conda env create -f environment.yml
 conda activate vmango-lab-demo
 jupyter notebook
 ```
+ 
