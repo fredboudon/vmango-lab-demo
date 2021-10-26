@@ -8,7 +8,7 @@ View on nbviewer, run and inspect interactively on binder or run it locally afte
 
 ## View on nbviewer
 
-### Modularity [1.0 @nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/1-0-modularity.ipynb) and [1.1 @nbviewer](https://nbviewer.jupyter.org/github/jvail/vmango-lab-demo/blob/main/notebooks/1-1-arch_dev.ipynb)
+### Modularity [1.0 @nbviewer](https://nbviewer.org/github/jvail/vmango-lab-demo/blob/a004cfc33b1665cce14f8531160246100651110d/notebooks/1-0-modularity.ipynb) and [1.1 @nbviewer](http://nbviewer.ipython.org/github/jvail/vmango-lab-demo/blob/a004cfc33b1665cce14f8531160246100651110d/notebooks/1-1-arch_dev.ipynb)
     Visualizing a model's processes and their dependencies and replace, plug-in and unplug a custom processes.
 
 ![Modularity](images/1-modularity.png)
