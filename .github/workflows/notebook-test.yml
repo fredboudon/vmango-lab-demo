@@ -1,0 +1,43 @@
+name: Testing notebooks using Conda
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      #max-parallel: 5
+      matrix:
+        os: [ "ubuntu-latest" ,  "windows-latest" ,"macos-latest"]
+
+    steps:
+    - uses: actions/checkout@v2
+
+
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        channels: fredboudon,conda-forge
+        use-mamba: true
+        environment-file: environment.yml
+        activate-environment: vmango-lab-demo
+
+
+    - name: Setup conda
+      shell: bash -l {0}
+      run: |
+        # Setup conda
+        conda info
+        conda install pytest
+        pip install nbmake
+
+    - name: Test notebooks 
+      shell: bash -l {0}
+      run: |
+        cd notebooks
+        pytest --nbmake
+
